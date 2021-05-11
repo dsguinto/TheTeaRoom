@@ -1,0 +1,41 @@
+/****** FLEXBOX STYLING ******/
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+  min-width: 350px;
+  margin: 1em;
+  padding: 1em;
+}
+
+.column p {
+  font-size: 1.25em;
+}
+
+.container {
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  background-color: #aae3eb;
+  width: 95%;
+  margin: 5em auto;
+}
+
+.about-image {
+  border-radius: 15px;
+}
+
+@media all and (max-width: 425px) {
+  .column {
+    min-width: 80vw;
+    width: 80vw;
+    text-align: center;
+  }
+}

@@ -1,0 +1,133 @@
+/****** FLEXBOX STYLING ******/
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 10px;
+  background-color: rgb(255, 245, 227, 0.75);
+  color: #111;
+  width: 25%;
+  min-width: 275px;
+  min-height: 302px;
+  margin: 1em;
+  padding: 1em;
+}
+
+.container {
+  border-radius: 51% 49% 25% 75% / 66% 65% 35% 34%;
+  background-color: #aae3eb;
+  width: 95%;
+  margin: 5em auto;
+}
+
+/****** FORM STYLING ******/
+form {
+  padding: 1em;
+  margin: 2em;
+}
+
+input,
+button {
+  font-family: "Comfortaa", cursive;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+  font-family: "Comfortaa", cursive;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.half-input {
+  margin: 1em;
+  padding: 0.75em 0.25em;
+  width: 50%;
+}
+
+.full-input {
+  margin: 1em;
+  padding: 0.75em 0.25em;
+  width: 100%;
+}
+
+.submit-button {
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  border: none;
+  background-color: #111;
+  color: white;
+  transition: 100ms;
+}
+
+.submit-button:hover {
+  background-color: white;
+  color: #111;
+  cursor: pointer;
+}
+
+/****** INFO BAR STYLING ******/
+h3 {
+  text-decoration: underline;
+}
+.info-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 50vh;
+  height: auto;
+  background-color: lightgrey;
+  color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 7em;
+}
+
+.column p {
+  font-weight: bold;
+  margin: 0 0 0.25em 0;
+}
+
+.column-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.column-row a {
+  margin: 0 1em;
+  color: #111;
+  transition: 200ms;
+}
+
+.column-row a:hover {
+  color: #7ac0c9;
+}
+
+.social-media {
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.hours {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
